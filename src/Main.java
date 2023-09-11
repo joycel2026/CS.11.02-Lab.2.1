@@ -27,8 +27,12 @@ public class Main {
 
     // 2. add
     public static int add(int a, int b, int c, int d){
-        return a+b+c+d;
+        int e = add(a,b);
+        int f = add(c,d);
+        return add(e,f);
     }
+
+
 
     // 3. morningGreeting
     public static String morningGreeting(String name){
