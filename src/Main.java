@@ -32,8 +32,6 @@ public class Main {
         return add(e,f);
     }
 
-
-
     // 3. morningGreeting
     public static String morningGreeting(String name){
         return "早上好, " + name + "!";
